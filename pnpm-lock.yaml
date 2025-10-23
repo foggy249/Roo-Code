@@ -370,6 +370,44 @@ importers:
         specifier: ^3.4.17
         version: 3.4.17
 
+  examples/simple-agent:
+    dependencies:
+      '@roo-code/agent-framework':
+        specifier: workspace:^
+        version: link:../../packages/agent-framework
+    devDependencies:
+      '@roo-code/config-typescript':
+        specifier: workspace:^
+        version: link:../../packages/config-typescript
+      '@types/node':
+        specifier: 20.x
+        version: 20.17.57
+      tsx:
+        specifier: ^4.19.3
+        version: 4.19.4
+      typescript:
+        specifier: 5.8.3
+        version: 5.8.3
+
+  packages/agent-framework:
+    dependencies:
+      '@roo-code/types':
+        specifier: workspace:^
+        version: link:../types
+    devDependencies:
+      '@roo-code/config-typescript':
+        specifier: workspace:^
+        version: link:../config-typescript
+      '@types/node':
+        specifier: 20.x
+        version: 20.17.57
+      rimraf:
+        specifier: ^6.0.1
+        version: 6.0.1
+      typescript:
+        specifier: 5.8.3
+        version: 5.8.3
+
   packages/build:
     dependencies:
       zod:

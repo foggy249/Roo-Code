@@ -1,0 +1,29 @@
+{
+	"name": "@roo-code/agent-framework",
+	"version": "0.1.0",
+	"description": "Reusable agent framework extracted from Roo-Code",
+	"main": "dist/index.js",
+	"types": "dist/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"clean": "rimraf dist"
+	},
+	"dependencies": {
+		"@roo-code/types": "workspace:^"
+	},
+	"devDependencies": {
+		"@roo-code/config-typescript": "workspace:^",
+		"@types/node": "20.x",
+		"rimraf": "^6.0.1",
+		"typescript": "5.8.3"
+	},
+	"keywords": [
+		"agent",
+		"llm",
+		"ai",
+		"framework",
+		"roo-code"
+	],
+	"author": "Roo Code",
+	"license": "Apache-2.0"
+}

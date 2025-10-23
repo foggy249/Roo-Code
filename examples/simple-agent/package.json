@@ -1,0 +1,21 @@
+{
+	"name": "simple-agent-example",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Simple agent example using Roo-Code framework",
+	"main": "index.ts",
+	"scripts": {
+		"start": "tsx index.ts",
+		"test": "tsx test.ts",
+		"build": "tsc"
+	},
+	"dependencies": {
+		"@roo-code/agent-framework": "workspace:^"
+	},
+	"devDependencies": {
+		"@roo-code/config-typescript": "workspace:^",
+		"@types/node": "20.x",
+		"tsx": "^4.19.3",
+		"typescript": "5.8.3"
+	}
+}

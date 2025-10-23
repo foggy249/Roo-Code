@@ -1,0 +1,21 @@
+{
+	"name": "layered-demo",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Layered architecture demonstration",
+	"scripts": {
+		"layer2": "tsx layer2-provider.ts",
+		"layer3": "tsx layer3-orchestration.ts",
+		"layer4": "tsx layer4-application.ts",
+		"layer5": "tsx layer5-agent.ts",
+		"all": "tsx all-layers.ts"
+	},
+	"dependencies": {
+		"@roo-code/agent-framework": "workspace:^"
+	},
+	"devDependencies": {
+		"@types/node": "20.x",
+		"tsx": "^4.19.3",
+		"typescript": "5.8.3"
+	}
+}
