@@ -79,7 +79,7 @@ async function testFileOperations() {
 
 		// Test list
 		const files = await runtime.listFiles(tmpDir)
-		if (files.length !== 1 || files[0].name !== "test.txt") {
+		if (files.length !== 1 || !files[0] || files[0].name !== "test.txt") {
 			throw new Error("List files returned unexpected results")
 		}
 
