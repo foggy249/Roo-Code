@@ -6,6 +6,7 @@
 	"main": "index.ts",
 	"scripts": {
 		"start": "tsx index.ts",
+		"test": "tsx test.ts",
 		"build": "tsc"
 	},
 	"dependencies": {

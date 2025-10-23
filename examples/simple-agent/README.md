@@ -26,9 +26,32 @@ pnpm install
 # Run the demo
 pnpm start
 
+# Run the test suite
+pnpm test
+
 # Or with a custom task
 pnpm start "List all TypeScript files in the current directory"
 ```
+
+## Testing
+
+The example includes a comprehensive test suite that validates:
+
+- ✅ Runtime capabilities
+- ✅ File operations (read, write, list, exists)
+- ✅ Command execution
+- ✅ Environment detection
+- ✅ Path resolution
+- ✅ Agent engine instantiation
+- ✅ Agent execution
+
+Run tests with:
+
+```bash
+pnpm test
+```
+
+All tests should pass, demonstrating that the framework is working correctly.
 
 ## What You'll See
 
